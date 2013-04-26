@@ -9,7 +9,7 @@ This plugin requires [Grunt](https://gruntjs.com) `~0.4.0` and Node `>=0.10.x`.
 Install this grunt plugin with:
 
 ```shell
-npm install grunt-browserify —save-dev
+npm install grunt-browserify -save-dev
 ```
 
 Then add this line to your project's `grunt.js` Gruntfile:
@@ -32,7 +32,7 @@ Specifies files to be ignored in the browserify bundle.
 #### alias
 Type: `[String:String]` or comma-separated `String`
 
-Browserify can alias files to a certain name. For example, `require(‘./foo’)` can be aliased to be used as `require(‘foo’)`. Aliases should be specified as `fileName:alias`.
+Browserify can alias files to a certain name. For example, `require(‘./foo’)` can be aliased to be used as `require('foo')`. Aliases should be specified as `fileName:alias`.
 
 #### external
 Type: `[String]`
@@ -49,15 +49,15 @@ To get things running, add the following entry to `grunt.initConfig()`:
 
 ```javascript
     browserify: {
-      src: [‘client/scripts/**/*.js`],
-      dest: ‘build/module.js’
-	}
+      src: ['client/scripts/**/*.js'],
+      dest: 'build/module.js'
+ }
 ```
 More complicated use cases can be found within this projects own `Gruntfile`.
 
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using `grunt`.
+In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using `grunt`.
 
 ## Release History
 
@@ -73,5 +73,3 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## License
 Copyright (c) 2013 Justin Reidy
 Licensed under the MIT license.
-
-

@@ -32,12 +32,12 @@ Specifies files to be ignored in the browserify bundle.
 #### alias
 Type: `[String:String]` or comma-separated `String`
 
-Browserify can alias files to a certain name. For example, `require(‘./foo’)` can be aliased to be used as `require('foo')`. Aliases should be specified as `fileName:alias`.
+Browserify can alias files to a certain name. For example, `require('./foo')` can be aliased to be used as `require('foo')`. Aliases should be specified as `fileName:alias`.
 
 #### external
 Type: `[String]`
 
-Specifies files to be loaded from a previously loaded, “common” bundle.
+Specifies files to be loaded from a previously loaded, "common" bundle.
 
 #### options:debug
 Type: `Boolean`
